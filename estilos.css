@@ -1,0 +1,59 @@
+#titular {
+    text-align: center;
+    font-size:xx-large;
+    background-color:blueviolet;
+    background:linear-gradient(top, rgb(77, 198, 77));
+    background:-o-linear-gradient(top, rgb(77, 198, 77));
+    background:-moz-linear-gradient(top, rgb(77, 198, 77));
+    background:-webkit-linear-gradient(top, rgb(77, 198, 77));
+    border-radius: 60px;
+    margin: 40px; 
+    color: white;
+}
+
+.celda1 {
+    width:85%;
+}
+
+.picture {
+    width:250px;
+    height: 150px;
+    padding: 10px;
+    border:blue solid 5px;
+    float:inline-start;
+    margin: 15px 15px;
+    margin-bottom: 50px;
+}
+
+.menu {
+    display:inline-flex;
+    justify-content:space-around;
+    gap:80px;
+    background:cadetblue;
+    width: auto;
+    margin-right:auto;
+}
+
+.boton {
+    background-color:cornflowerblue;
+    font-size: 15px;
+    transition: transform 0.4s;
+}
+    
+.boton:active { /* estilo para botones en activo */
+    padding: 12px;
+    margin:20px;
+}
+
+#foot{
+    float:inherit;
+}
+
+.pie{
+    text-align: left;
+    display: inline-block;
+}
+
+#bajo{
+    width: 100%;
+}
